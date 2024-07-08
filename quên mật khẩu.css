@@ -1,0 +1,107 @@
+body{
+    background-color: darkgrey;
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+}
+#main{
+    background-color: #FF5700;
+    max-width: 650px;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+}
+.column{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#anh1{
+    height: 12px;
+}
+.fontsize1{
+    font-size: 10px;
+    vertical-align: middle;
+}
+#anh2{
+    height: 90px;
+}
+.Taskbar{
+    background-color: #a52a2ab8;
+    margin-left: 0.5%;
+    width: 25%;
+    padding: 5px; 
+}
+#bodyTaskbar{
+    margin-right: 0.7%;
+     width: 99%;
+     margin-bottom: 1%;
+}
+a{
+     color: azure;
+     font-size: 12px;
+     text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+.loicuoi{
+    margin-bottom: -10px;
+    font-size: 10px;
+}
+#dongcuoi{
+    font-size: 10px;
+    margin-bottom: 30px;
+}
+#bodymin{
+    background-color: orange;
+    font-size: 12px;
+    width: 100%;
+    font-weight: 600;
+}
+.giuadong{
+    align-items: center;
+}
+.nhap{
+    border-radius: 5px;
+    border: 1px solid darkgrey;
+    height: 20px 
+}
+
+.Taskbar2{
+    width: 50%;
+    background-color: brown;
+    padding: 5px;
+}
+#bodyTaskbar2{
+    width: 100%;
+}
+#live{
+    background-color: orange;
+    color: #a52a2ab8;
+}
+.cach{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#guimk{
+    color: azure;
+    background-color: crimson;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border: 0;
+}
+#guimk:hover{
+    background-color: darkgrey;
+}
+.phai{
+    width: 50%;
+    margin-right: 10px;
+}

@@ -1,0 +1,84 @@
+body{
+    background-color: darkgrey;
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+}
+#main{
+    background-color: #FF5700;
+    max-width: 650px;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+}
+.column{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#anh1{
+    height: 12px;
+}
+.fontsize1{
+    font-size: 10px;
+    vertical-align: middle;
+}
+#anh2{
+    height: 90px;
+}
+.Taskbar{
+    background-color: #a52a2ab8;
+    margin-left: 0.5%;
+    width: 25%;
+    padding: 5px; 
+}
+#bodyTaskbar{
+    margin-right: 0.7%;
+     width: 99%;
+     margin-bottom: 1%;
+}
+a{
+     color: azure;
+     font-size: 12px;
+     text-decoration: none;
+}
+.loicuoi{
+    margin-bottom: -10px;
+    font-size: 10px;
+}
+#dongcuoi{
+    font-size: 10px;
+    margin-bottom: 30px;
+}
+a:hover{
+    text-decoration: underline;
+}
+#bodymin{
+    background-color: orange;
+    font-size: 12px;
+    width: 100%;
+}
+.xuongdong{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.cach{
+    margin: 5px;
+}
+.anh{
+    width: 100px;
+    margin-top: 15px;
+}
+.vip{
+    font-weight: 600;
+    color: red;
+}
+.cangiua{
+    align-items: center;
+}

@@ -1,0 +1,143 @@
+body{
+    background-color: darkgrey;
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+}
+#main{
+    background-color: #FF5700;
+    max-width: 650px;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+}
+.column{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#anh1{
+    height: 12px;
+}
+.fontsize1{
+    font-size: 10px;
+    vertical-align: middle;
+}
+#anh2{
+    height: 90px;
+}
+.Taskbar{
+    background-color: #a52a2ab8;
+    margin-left: 0.5%;
+    width: 25%;
+    padding: 5px; 
+}
+#bodyTaskbar{
+    margin-right: 0.7%;
+     width: 99%;
+     margin-bottom: 1%;
+}
+a{
+     color: azure;
+     font-size: 12px;
+     text-decoration: none;
+}
+.loicuoi{
+    margin-bottom: -10px;
+    font-size: 10px;
+}
+#dongcuoi{
+    font-size: 10px;
+    margin-bottom: 30px;
+}
+a:hover{
+    text-decoration: underline;
+}
+#bodymin1{
+    background-color: orange;
+    font-size: 12px;
+    width: 100%;
+}
+.xuongdong{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.dangnhap{
+    background-color: crimson;
+    margin: 5px;
+    padding: 10px;
+}
+.dangnhap:hover{
+    background-color: rgb(92, 173, 11);
+    text-decoration: none;
+}
+.khung{
+    height: 50px;
+}
+#bodydouload{
+    background-color: orange;
+    width: 100%;
+    max-height: 500px;
+}
+.douload{
+    height: 35px;
+}
+.phienban{
+    font-size: 10px;
+    color: brown;
+}
+.cach{
+    margin: 5px;
+}
+.anh{
+    width: 30px;
+}
+#bodymin2{
+    background-color: chocolate;
+    width: 100%;
+}
+.giuadong{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+#live{
+    background-color: orange;
+    color: #a52a2ab8;
+}
+#bodymin3{
+    background-color: #795548b3;
+    width: 100%;
+    color: aliceblue;
+    font-size: 12px;
+}
+.rong{
+    width: 100%;
+}
+.b{
+    width: 33.3%;
+    text-align: center;
+    margin-top: 5px;
+}
+.chudam{
+    font-weight: 600;
+}
+.chuxanh{
+    color: greenyellow;
+}
+.chuvang:hover{
+    color: gold;
+}
+.vien{
+    background-color: brown;
+    border: 2px solid orange;
+}
+#taikhoankhoa{
+    width: 99.4%;
+}
